@@ -1,4 +1,4 @@
-package media;
+package Tarefa_ControleFluxo;
 
 import java.util.Scanner;
 
@@ -19,7 +19,7 @@ public class Main {
 
         if(media >= 7){
             System.out.println("Aprovado, sua media foi: " + media);
-        }else if(media > 5 && media < 7){
+        }else if(media > 5){
             System.out.println("Ficou de exame, sua media foi: " + media);
         }else{
             System.out.println("Reprovado, dua media foi: " + media);
