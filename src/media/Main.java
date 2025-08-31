@@ -15,7 +15,7 @@ public class Main {
         System.out.printf("Digite a Quarta nota: ");
         Double n4 = s.nextDouble();
 
-        Double media = (n1+n2+n3+n4) / 4;
+        double media = (n1+n2+n3+n4) / 4;
 
         if(media >= 7){
             System.out.println("Aprovado, sua media foi: " + media);
