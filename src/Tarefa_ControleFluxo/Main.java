@@ -5,17 +5,16 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
+        int n = 1;
+        double[] notas = {1, 2,3,4};
 
-        System.out.printf("Digite a Primeira nota: ");
-        Double n1 = s.nextDouble();
-        System.out.printf("Digite a Segunda nota: ");
-        Double n2 = s.nextDouble();
-        System.out.printf("Digite a Terceira nota: ");
-        Double n3 = s.nextDouble();
-        System.out.printf("Digite a Quarta nota: ");
-        Double n4 = s.nextDouble();
+        for (int i = 0; i < 4; i++) {
+            System.out.printf("Digite a " + n + "º nota: ");
+            notas[i] = s.nextDouble();
+            n++;
+        }
 
-        double media = (n1+n2+n3+n4) / 4;
+        double media = (notas[0]+notas[1]+notas[2]+notas[3]) / 4;
 
         if(media >= 7){
             System.out.println("Aprovado, sua media foi: " + media);
