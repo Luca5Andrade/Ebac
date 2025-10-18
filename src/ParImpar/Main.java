@@ -25,7 +25,7 @@ public class Main {
             }
 
             if (!PAR) {
-                System.out.print("Ne  nhum numero par");
+                System.out.print("Nenhum numero par");
             }
 
             System.out.println("\nDeseja utilizar novamente? (s/n)");
